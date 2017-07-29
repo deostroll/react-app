@@ -1,0 +1,28 @@
+[
+	{
+		"name" : "getSometing",
+		"parameters" : [
+			{
+				"name" : "data",
+				"in" : "body",
+				"type" : "string"
+			}
+		],
+		"path" : "/BaseUsers",
+		"method" : "post",
+		"description" : "getSomething - any damn thing"
+	},
+	{
+		"name" : "getAnotherThing",
+		"path" : "/BaseUsers/foo",
+		"method" : "post",
+		"parameters" : [
+			{
+				"name" : "data",
+				"in" : "body",
+				"type" : "string"
+			}
+		],
+		"description" : "Get the other thing..."
+	}
+]
